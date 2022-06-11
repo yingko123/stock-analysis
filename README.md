@@ -45,4 +45,8 @@ Using the indexed variable framework, I was able to break down a nested loop int
 <img src="Resources/VBA_Challenge_2017.PNG" width=300px>  <img src="Resources/VBA_Challenge_2018.PNG" width=300px>
 
 ## Summary
-In situations with a large set of data with repetitive patterns, refactoring can potentially improve performance significantly. However, refactoring will take programming time, and in cases of small datasets, it may not generate meaningful performance improvements. For our dataset, refactoring gave us significant performance improvements since the dataset is quite large with over 3,000 rows, and it has a repeating pattern.
+In situations with a large set of data with repetitive patterns, refactoring can potentially improve performance significantly. However, refactoring will take programming time, and in cases of small datasets, it may not generate meaningful performance improvements. <br/>
+
+For our dataset, refactoring gave us significant performance improvements since the dataset is quite large with over 3,000 rows, and the data has a repeating pattern over 12 stocks. The disadvantage of refactoring our original code, especially in the case if this subroutine is not used all the time, is the programming time it takes to refactor. In this case, for a saving of a little over 1 second of computing time, it took over an hour to refactor my code.
+
+
