@@ -7,7 +7,7 @@ The two goals of this project are:
 
 ## Results
 ### 1. Daily Trading Volume and Returns
-After analyizing the daily trading volume and the annual returns of 2017 and 2018 for the given list of stock, I believe there is no relationship between a stock's daily trading volume and their annual returns.  Below we can see that our list of stock in general delievered higher returns during 2017 compared to 2018.  However stock performance do not seem to correlate to performance for neither years.
+After analyzing the daily trading volume and the annual returns of 2017 and 2018 for the given list of stocks, I believe there is no relationship between a stock's daily trading volume and its annual returns. Below we can see that our list of stocks, in general, delivered higher returns during 2017 compared to 2018. However, stock performance does not seem to correlate to performance for either year.
 
 **2017 Stock Annual Returns vs. Total Daily Trading Volume**<br/>
 <img src="Resources/2017_Vol_Rtn.PNG" width="500px">
@@ -17,8 +17,9 @@ After analyizing the daily trading volume and the annual returns of 2017 and 201
 
 <br/>
 
-### 2. Refactoring Subroutine
-Using the indexed variable framework, I was able to breakdown a nested loop into three simple loops.  This improved the run time of the overall tasks by over 5 folds from over 1 second to roughly 200 milliseconds
+### 2. Refactoring Subroutines
+Using the indexed variable framework, I was able to break down a nested loop into three simple loops. This improved the run time of the overall tasks by over 5 folds from over 1 second to roughly 200 milliseconds.
+
 
 <br/>
 
@@ -28,16 +29,19 @@ Using the indexed variable framework, I was able to breakdown a nested loop into
 
 <br/>
 
-*For the refactoring execercise, I broke down the nested loop by indexing my variable to elimiate the need to run through a 3000+ rows loop 12 times.*
+*For the refactoring exercise, I broke down the nested loop by indexing my variable to eliminate the need to run through a 3000+ rows loop 12 times.*
 
 <img src="Resources/Refactored.PNG" width="600px">
 
 <br/>
 
-*As a result, the run time for the 2017 and 2018 data set has improved significantly.  Run time decreased from over 1 second to roughly 200 milliseconds.*
+*The run time of the refactored subroutine improved significantly.  For the 2017 and 2018 data sets, the run time decreased from over 1 second to roughly 200 milliseconds.*
 
 <img src="Resources/VBA_Challenge_2017.PNG" width=300px>  <img src="Resources/VBA_Challenge_2018.PNG" width=300px>
 
-
-
 ## Summary
+In situations with a large set of repetitive data, refactoring code can have the potential to improve performance significantly. However, refactoring will take programming time, and in cases of small datasets, it may not generate meaningful computing improvements. For our dataset, refactoring gave us significant performance improvements since the dataset is quite large with over 3,000 rows, and it has a repeating pattern.
+
+
+
+
